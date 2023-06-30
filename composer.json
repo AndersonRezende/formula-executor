@@ -1,0 +1,45 @@
+{
+    "name": "andersonrezende/formula-executor",
+    "description": "Formula converter and executor in string format",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Andersonrezende\\FormulaExecutor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Andersonrezende\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anderson Rezende",
+            "email": "andersonrezende17@hotmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/AndersonRezende/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "keywords": [
+        "infix",
+        "postfix",
+        "expression",
+        "formula",
+        "converter",
+        "calculator",
+        "math"
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
